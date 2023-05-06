@@ -1,21 +1,31 @@
 # Type your responses on a new line
 
 # 1 - What is the command for listing the files in the current folder (directory)?
+ls is the command for listing the files in the current directory.
 
 # 2 - What is the command for changing directories?
+cd is the command for changing directories.
 
 # 3 - What is the command for going "up" a folder (to a parent directory)?
+cd .. will change directories to the parent directory.
 
 # 4 - What is a quick way to create a new folder?
+mkdir will create a new directory.
 
 # 5 - What output would you expect when you run the command 'ls' in an empty folder? What about a folder containing files?
+ls will return a blank response when searching an empty directory. If the directory contains files, it will list the names of those files.
 
 # 6 - What is a quick way to create a new file?
+touch is a quick qay to create a new file from the terminal.
 
 # 7 - Run 'git --version' in your terminal. What is the output?
+git version 2.15.0 is the output.
 
 # 8 - Why would you run the command 'git status'?
+git status will display the state of the working directory and staging area. This is useful for determining if you need to add/commit/push.
 
 # 9 - What does the command 'git add .' do?
+git add . adds all local changes made on your device to the staging area. It still needs to be committed to be saved locally, and pushed to be saved on GitHub.
 
 # 10 - What is the command to push your committed changes to your repo on GitHub?
+git push origin main will push from the local computer to GitHub, in the main branch of the project.
