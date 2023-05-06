@@ -8,9 +8,23 @@ header, footer {
 }
 
 /* Align the h1 containing your name in the center of the header*/
+h1 {
+    text-align: center;
+}
 
 /* Make your p tag a different color and italic */
+p, a {
+    color: green;
+    font-style: italic;
+}
 
 /* Put a border around your image */
+img {
+    border-style: solid;
+    border-width: medium;
+}
 
 /* Change the font-family of your list */
+ul {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
